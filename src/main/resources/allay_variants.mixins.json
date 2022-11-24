@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "caleb.allay.variants.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AllayVariantsMixin",
+    "MobInitMixin",
+    "AllayBrainMixin"
+  ],
+  "client": [
+    "AllayVariantRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

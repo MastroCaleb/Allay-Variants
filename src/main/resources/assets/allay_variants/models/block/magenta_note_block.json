@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+      "all": "allay_variants:block/magenta_note_block"
+    }
+  }

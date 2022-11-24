@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "allay_variants:block/pink_note_block"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "allay_variants:block/lime_note_block"
+    }
+  }
+}

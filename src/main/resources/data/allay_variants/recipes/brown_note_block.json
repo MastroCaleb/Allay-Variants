@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###",
+      "#X#",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "tag": "minecraft:planks"
+      },
+      "X": {
+        "item": "minecraft:brown_wool"
+      }
+    },
+    "result": {
+      "item": "allay_variants:brown_note_block"
+    }
+  }

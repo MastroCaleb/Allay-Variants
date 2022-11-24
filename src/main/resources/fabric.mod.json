@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "allay_variants",
+  "version": "${version}",
+
+  "name": "Allay Variants",
+  "description": "Adds a way to customize your Allays and new features!",
+  "authors": [
+    "Caleb"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/allay_variants/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "caleb.allay.variants.ColoredAllaysMod"
+    ]
+  },
+  "mixins": [
+    "allay_variants.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
